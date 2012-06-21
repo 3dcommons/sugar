@@ -1,0 +1,11 @@
+[Activity]
+name = Print3D
+activity_version = 1
+host_version = 1
+bundle_id = com.3dcommons.Sugar.Print3D
+license = GPLv2+ and BSD
+icon = activity-print3d
+exec = sugar-activity print3dactivity.Print3DActivity
+mime_types = application/pdf;image/tiff;model/iges;model/x3d+binary;model/x3d+xml
+show_launcher = yes
+update_url = http://3dcommons.com/sugar/bundles/Print3D
