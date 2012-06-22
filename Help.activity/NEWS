@@ -1,0 +1,62 @@
+NEWS
+====
+
+### 2011-07-28 Version 14 (Help.activity) ###
+
+- Remove the Keep Button (deprecated)
+- Change class by exec in activity.info
+- Change service_name by bundle_id
+
+### 2011-05-14 Version 13 (Help.activity) ###
+
+- Few UI improvements
+
+### 2010-11-10 Version 12 (Help.activity) ###
+
+ - Fix permissions for HTML pages: use 0644
+ - Fix icon for F13 changes in rendering
+ - Add view toolbar, with zoom in, zoom out and full screen buttons
+ - Use go-home icon
+ - Remove width from content section in css to improve screen usage
+ - Merge with latest XO 1.5 branch
+
+Thanks to Gonzalo for recent commits and for requesting a new release.
+
+### 2009-12-11 Version 11 (Help.activity) ###
+
+ -  Merged old help activity content with the Helpfr updated browse/hulahop
+ -  added chapter on ad-hoc networking
+ -  cleanups for 1.5 release inclusion
+
+8.2.0 Help.activity history
+---------------------------
+
+### Version 10 ###
+
+ -  fixed the extra bunch of credits, not checked into git
+    script used for the fix is in help/fix-credits.py --sj@laptop.org
+
+### Version 9 ###
+
+ -  Fix images that broke  *AGAIN* --seth@laptop.org
+
+### Version 8 ###
+
+ -  Refresh of content from flossmanuals export --seth@laptop.org
+
+### Version 7 ###
+
+ -  dlo#8558: added more images that started with leading .'s as they weren't
+    found by 'git add .'
+ -  dlo#8514: updated Advanced Power section re:AnneGentle ticket not yet closed
+ --seth@laptop.org
+
+### Version 6 ###
+
+ -  dlo#8558: changed image urls to local folders to allow offline viewing
+ -  update manifest.
+ --seth@laptop.org
+
+### Version 5 ###
+
+ -  First public release.
