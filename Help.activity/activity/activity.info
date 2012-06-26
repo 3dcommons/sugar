@@ -1,7 +1,0 @@
-[Activity]
-name = Help
-activity_version = 13
-bundle_id = org.laptop.HelpActivity
-icon = activity-help
-exec = sugar-activity helpactivity.HelpActivity
-license = GPLv3
