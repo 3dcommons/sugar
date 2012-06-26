@@ -1,0 +1,17 @@
+[Activity]
+implement = printerbot
+name      = Printer Bot
+summary   = The Printer Bot activity is a 3D Printing tool
+description = It has core 3D printing features
+homepage  = http://3dcommons.com/
+license   = GPLv2+
+
+icon      = activity-printerbot
+exec      = sugar-activity PrinterBotActivity.PrinterBotActivity
+mime_types = image/bmp;image/gif;image/jpeg;image/png;image/tiff;image/svg+xml
+
+version   = %(activity_version)s
+
+# support original activity.info fields
+activity_version = 1
+bundle_id = org.laptop.PrinterBotActivity
