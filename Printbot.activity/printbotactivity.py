@@ -12,6 +12,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+import logging
 import os
 from gettext import gettext as _
 
@@ -150,6 +151,12 @@ class Toolbar(gtk.Toolbar):
         self.insert(self._home, -1)
         self._home.show()
 
+	self.start = ToolButton('start')
+	self.start.set_tooltip(_('Start'))
+	self.start.connect('clicked', self.start, None)
+	self.insert(self.start, -1)
+	self.start.show()
+
         progress_listener = self._web_view.progress
         progress_listener.connect('location-changed',
                                   self._location_changed_cb)
@@ -176,4 +183,7 @@ class Toolbar(gtk.Toolbar):
 
     def _go_home_cb(self, button):
         self._web_view.load_uri(HOME)
+
+    def start(self, widget, data=None):
+	logging.info('Starting...')
 
