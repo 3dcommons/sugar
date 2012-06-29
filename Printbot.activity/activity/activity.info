@@ -1,7 +1,0 @@
-[Activity]
-name = Printbot
-activity_version = 12
-bundle_id = org.laptop.PrintbotActivity
-icon = activity-printbot
-exec = sugar-activity printbotactivity.PrintbotActivity
-license = GPLv3
