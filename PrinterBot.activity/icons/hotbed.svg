@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY fill_color "#FFFFFF">
+]><svg enable-background="new 0 0 55 55" height="55px" version="1.1" viewBox="0 0 55 55" width="55px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><g display="block" id="stock-xo_1_">
+	<defs>
+		<mask id="Mask" maskUnits="userSpaceOnUse" x="0" y="0" width="55" height="55">
+			<line x1="6" y1="40" x2="28" y2="40" stroke-width="1" stroke="white" stroke-linecap="round"/>
+			<line x1="6" y1="42" x2="28" y2="42" stroke-width="1" stroke="white" stroke-linecap="round"/>
+			
+			<line x1="6" y1="40" x2="6" y2="42" stroke-width="1" stroke="white" stroke-linecap="round"/>
+			<line x1="6" y1="40" x2="28" y2="24" stroke-width="1" stroke="white" stroke-linecap="round"/>
+
+			<line x1="50" y1="24" x2="28" y2="40" stroke-width="1" stroke="white" stroke-linecap="round"/>
+			<line x1="50" y1="26" x2="28" y2="42" stroke-width="1" stroke="white" stroke-linecap="round" />
+
+			<line x1="28" y1="24" x2="50" y2="24" stroke-width="1" stroke="white" stroke-linecap="round" />
+			<line x1="50" y1="24" x2="50" y2="26" stroke-width="1" stroke="white" stroke-linecap="round" />
+			<line x1="28" y1="42" x2="28" y2="40" stroke-width="1" stroke="white" stroke-linecap="round" />
+
+		</mask>
+	</defs>
+	<path d="M 3 12 Q 3 3 12 3 L 43 3 Q 53 3 53 12 L 53 43 Q 53 53 43 53 L 12 53 Q 3 53 3 43 z" fill="&fill_color;" stroke="&fill_color;" stroke-width="3.5" mask="url(#Mask)"/>
+</g></svg>
